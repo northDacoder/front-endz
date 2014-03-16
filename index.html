@@ -36,114 +36,112 @@
 <nav class="navbar" role="navigation">
             
     <!-- Page Header -->
-    <!--<div class="navbar-header">
-	       <a class="navbar-brand" href="index.html">prototype.io</a>
-		</div>-->
-    <!-- Header -->
-
-    <ul class="nav navbar-nav">
-        <li id="menu-icon">
-            <a class="menu-icon" href="#">
-                <i class="icon-reorder"></i>
-            </a>
-        </li>
+    <div class="navbar-header">
+	    <!-- Stacked Header Icon -->
+        <a class="navbar-brand" href="index.html">prototype.io</a>
         
-        <li class="dropdown">
+        <!-- Person Header Icon -->
+        <li id="menu-icon">
+            <a class="menu-icon" href="#"><i class="icon-reorder"></i></a>
+        </li>
+	
+        <!-- Person Dropdown Menu -->
+        <ul class="nav navbar-nav">
+            <li class="dropdown">
             <a  class="dropdown-toggle menu-icon" data-toggle="dropdown" href="#"><i class="icon-user"></i></a>
-                <ul class="user dropdown-menu">
-                    <li>
-                        <div class="container">
+            
+            <!-- Developer Profile Dropdown Menu Contents -->
+            <ul class="user dropdown-menu">
+                <li>
+                    <div class="container">
 
-                            <!-- Developer Profile -->
-                            <div class="row">
+                        <!-- Developer Profile -->
+                        <div class="row">
 
-                                <!-- Developer Profile Pic --> 
-                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                                    <img class="profile img-circle" src="assets/img/yashbro.jpg">
-                                </div>
-
-                                <!-- Developer Profile Info -->
-                                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 details">
-                                    <small>Welcome <a href="#">Roger</a>, busy?</small>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#"><small><i class="icon-comment icon"></i> 12 new comments</small></a></li>
-                                        <li><a href="#"><small><i class="icon-calendar icon"></i> 6 new events</small></a></li>
-                                        <li><a href="#"><small><i class="icon-bar-chart icon"></i> 2 sales reports</small></a></li>
-                                    </ul>
-                                </div>
-
+                            <!-- Developer Profile Pic --> 
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                <img class="profile" src="assets/img/yashbro.jpg">
                             </div>
-                            <!-- Developer Profile -->
+
+                            <!-- Developer Profile Info -->
+                            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 details">
+                                <small>Welcome <a href="#">Roger</a>, busy?</small>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon-comment icon"></i> 12 new comments
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- Developer Profile -->
 
                             
-                            <div class="sales well">
-                                <div class="row">
-                                    <div class="border-right col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                        <p class="text-center">Sales: $800</p>
-                                    </div>
-                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                        <p class="text-center">Users: 1267</p>
-                                    </div>
+                        <div class="sales well">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <p class="text-center">Sales: $800</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <p class="text-center">Users: 1267</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <p class="text-center">Users: 1267</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <p class="text-center">Users: 1267</p>
                                 </div>
                             </div>
                         </div>
-                    </li>
-                </ul>
-            </li>
+                    </div>
+
+                </li>
+            </ul>
+        </li>
             
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                notifications 
-                    <span class="top-alert vibrate">
-                        <span class="arrow"></span>
-                        4
-                    </span>
-                </a>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            notifications 
+                <span class="top-alert vibrate">
+                    <span class="arrow"></span>
+                    2
+                </span>
+            </a>
                 
-                <ul class="dropdown-menu">
-                    <li>
-                        <a href="#">
-                            <p class="padding">
-                                <img class="pull-left picture" src="assets/img/flat_icons/message.png" width="30" alt="" />
-                                <small>Hey, I wondered if you could help me as I can't log on to my account. Thanks</small>
-                            </p>
-                            <p>
-                                <small class="muted">
-                                    <i class="icon-user"></i> Stan Smith
-                                    <span class="pull-right">
-                                        <i class="icon-time"></i> 2 hours ago
-                                    </span>
-                                </small>
-                            </p>
-                        </a>
-                    </li>
+            <!-- Notifications Section -->    
+            <ul class="dropdown-menu">
+                <!-- Google Message -->
+                <li><a href="#"><p class="padding"><img class="pull-left picture" src="assets/img/flat_icons/message.png" width="30" alt="" />
+                    <small>Hey John, I really like your designs.  We would really like to hire you ASAP!</small></p>
                     
-                    <li>
-                        <a href="#">
-                            <p class="padding">
-                                <img class="pull-left picture" src="assets/img/flat_icons/calendar.png" width="30" alt="" />
-                                
-                                <small>New calendar event: 'Greg's Birthday Party' in 
-                                    <span class="text-warning">2 days</span> time at 6pm
-                                </small>
-                            </p>
-                        </a>
-                    </li>
+                    <p><small class="muted"><i class="icon-user"></i> 
+                        Sergey Brin, Google
+                        <span class="pull-right"><i class="icon-time"></i> 
+                            1 hour ago
+                        </span>
+                        </small>
+                    </p>
+                    </a>
+                </li> 
+                
+                <!-- Yashbro Message -->
+                <li><a href="#"><p class="padding"><img class="pull-left picture" src="assets/img/flat_icons/message.png" width="30" alt="" />
+                    <small>Hey Bro, I'm stuck... Think you could hook me up with some code? Thanks</small></p>
                     
-                    <li>
-                        <a href="#">
-                            <p class="padding"><img class="pull-left picture" src="assets/img/flat_icons/charts.png" width="30" alt="" /><small>Sales of 'Product X' from 2013 Q3 are up <span class="text-success">15%</span> while others are up <span class="text-warning">2%</span></small></p>
-                        </a>
-                    </li>
-                    
-                    <li>
-                        <a href="#">
-                            <p class="padding"><img class="pull-left picture" src="assets/img/flat_icons/cone.png" width="30" alt="" /><small><span class="text-error">An error has occurred.</span> The cron needs your attention</small></p>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+                    <p><small class="muted"><i class="icon-user"></i>  
+                        Yash Saxena
+                        <span class="pull-right"><i class="icon-time"></i> 
+                            2 minutes ago
+                        </span></small>
+                    </p>
+                    </a>
+                </li>    
+
+            </ul>
+        </li>
+    </ul>
             
     <ul class="nav pull-right search">
         <form class="nav-search" action="">
